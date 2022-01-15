@@ -1,0 +1,18 @@
+.status.bar {
+  position: absolute;
+  width: 100%;
+  height: var(--statusH);
+  bottom: 0;
+  background-color: #0084ff;
+}
+
+.status.bar .loc {
+  font-family: monospace;
+  font-size: 1.875em;
+  font-weight: bold;
+  width: 250px;
+}
+
+.status.bar .loc span {
+  color: #fff;
+}
